@@ -1,3 +1,45 @@
 .App {
   text-align: center;
+  background-image: linear-gradient(to right, #403b4a, #e7e9bb);
+  min-height: 100vh;
+  width: 100vw;
+  padding-top: 10vh;
+  /* display: flex;
+  flex-direction: column; */
+}
+input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin: 1rem;
+  border: none;
+}
+input:focus {
+  border: 1px solid sandybrown;
+  outline: none;
+}
+.top {
+  display: block;
+}
+button {
+  /* width: 5rem; */
+  /* height: 2rem; */
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 0.5rem 1.5rem;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+a {
+  margin: 1rem;
+  text-decoration: none;
+  background-color: brown;
+  border-radius: 5px;
+  padding: 0.4rem 1rem;
+  font-weight: 700;
+  color: white;
 }
