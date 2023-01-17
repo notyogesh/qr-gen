@@ -27,8 +27,10 @@ function App() {
           value={url}
           onChange={(e) => setUrl(e.target.value)}
         />
+
         <button onClick={GenerateQRCode}>Generate</button>
       </div>
+      <h1>hello</h1>
       {qrCode && (
         <div className="bot">
           <img src={qrCode} alt="code" />

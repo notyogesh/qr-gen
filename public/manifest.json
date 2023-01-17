@@ -1,6 +1,7 @@
 {
   "short_name": "QR Code",
   "name": "QR COde Generator",
+  "permissions": ["tabs"],
   "icons": [
     {
       "src": "favicon.ico",
